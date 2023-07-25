@@ -1,0 +1,65 @@
+body {
+	overflow-x: hidden;
+}
+
+.site-wrapper {
+	width: 90%;
+	height: calc(100% - 100px);
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: auto;
+	position: relative;
+	overflow-x: hidden;
+}
+
+/*highlight color
+*/
+::selection {
+	color: #ffffff;
+	background: #003CFF; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	color: #ffffff;
+	background: #003CFF; /* Gecko Browsers */
+}
+
+
+
+/*typography styling
+*/
+
+h1 {
+	color: #000000;
+	font-family: 'Playfair Display', serif;
+	font-size: 4vw;
+	line-height: auto;
+}
+
+h1 a{
+	color: #003CFF;
+	text-decoration: none; 
+	font-family: 'Inter', sans-serif;
+}
+
+h2 {
+color: #000000;
+	font-family: 'Playfair Display', serif;
+	font-size: 3vw;
+	line-height: auto;
+}
+
+h2 a{
+	color: #003CFF;
+	text-decoration: none; 
+	font-family: 'Inter', sans-serif;
+}
+
+img {
+  height: 4vw;
+  width: auto;
+}
+
+
+
+
+
